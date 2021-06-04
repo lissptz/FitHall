@@ -8,10 +8,15 @@ const routes = [
 		component: Home,
 	},
 	{
-		path: '/Property',
-		name: 'Property',
+		path: '/Treners',
+		name: 'Treners',
+		component: ()=>import("../views/Treners.vue"),
+	},
+	{
+		path: '/Price',
+		name: 'Price',
 		
-		component: () => import(/* webpackChunkName: "about" */ '../views/Property.vue'),
+		component: () => import(/* webpackChunkName: "about" */ '../views/Price.vue'),
 	},
 	{
 		path: '/Contacts',
@@ -20,10 +25,10 @@ const routes = [
 		component: () => import(/* webpackChunkName: "about" */ '../views/Contacts.vue'),
 	},
 	{
-		path: '/Blog',
-		name: 'Blog',
+		path: '/Opmode',
+		name: 'Opmode',
 		
-		component: () => import(/* webpackChunkName: "about" */ '../views/Blog.vue'),
+		component: () => import(/* webpackChunkName: "about" */ '../views/Opmode.vue'),
 	},
 ]
 

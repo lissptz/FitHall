@@ -1,0 +1,55 @@
+
+.navbar{
+	padding-top:30px;
+ 
+}
+.navbar.navbar-expand-lg.navbar-light{
+	background: $grey;
+}
+
+.logo{
+padding-right: 80px;
+border: 1px solid rgb(253, 252, 252);
+border-radius: 20px;
+overflow: hidden;
+
+
+}
+.collapse-fontsize{
+	font-size: 25px;
+}
+.menu-link{
+	padding: 10px 20px;
+    &:hover{
+        transition-duration: 700ms;
+		background: $orange;
+		border-radius: 10px;
+	}
+
+	}
+.icons{
+		a {width: 45px;
+		height: 40px;
+		text-align: center;
+		border: 1px solid $orange;
+		border-radius: 8px;
+		margin-right: 10px;
+		display: inline-block;}
+}
+.icons>a:hover{     
+transition-duration: 700ms;
+background: $orange;
+
+}
+
+.home_name{
+font-size: 12px;
+ text-transform: uppercase;
+ padding-left: 135px;
+  letter-spacing: 4px;
+    line-height: 10px;
+	font-weight:bold;
+
+}
+
+		

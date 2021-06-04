@@ -13,13 +13,11 @@
 				
 			</div>
 			<div class="carousel-item">
-				<img src="../assets/images/caorusel_next.png" class="d-block w-100" alt="" />
-				<div class="carousel-caption d-none d-md-block">
-					
-				</div>
+				<img src="../assets/images/back_inst.jpg" class="d-block w-100" alt="" />
+				
 			</div>
 			<div class="carousel-item">
-				<img src="../assets/images/caorusel_second.png" class="d-block w-100" alt="" />
+				<img src="../assets/images/action.jpg" class="d-block w-100" alt="" />
 				<div class="carousel-caption d-none d-md-block">
 					
 				</div>
@@ -35,14 +33,3 @@
 		</a>
 	</div>
 </template>
-<style scoped>
- 
- /* .carousel {
-  display: block;
-  margin: 0 auto;
-  max-width: 800px;
-}
- */
-
-
-</style>

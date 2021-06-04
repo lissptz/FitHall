@@ -1,23 +1,26 @@
 <template>
 	<div class="home">
-		
-	
-		<Caorusel />
-	
-		
+		<Carusel />
+
+		<Feauters :data="featureData"/>
 	</div>
 </template>
 
 <script>
+	import {featureData} from '../data/data.feauters.js'
 	// @ is an alias to /src
-	
-	import Caorusel from '../components/Caorusel.vue'
-
+	import Carusel from '../components/Caorusel'
+	import Feauters from '../components/Feauters'
 	export default {
 		name: 'Home',
 		components: {
-	
-			Caorusel,
+			Carusel,
+			Feauters,
+		},
+		data() {
+			return {
+				featureData: featureData,
+			}
 		},
 	}
 </script>
