@@ -1,20 +1,25 @@
 <template>
-
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../assets/images/ishutin.png" alt="">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Ишутин</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="home">
+		<Treners />
+        <Feauters :data="featureData"/>
+	</div>
 </template>
 
-
- 
+<script>
+	import {featureData} from '../data/data.feauters.js'
+	
+	import Treners from '../components/TrenCard'
+	import Feauters from '../components/Feauters'
+	export default {
+		name: 'Home',
+		components: {
+			Treners,
+			Feauters,
+		},
+		data() {
+			return {
+				featureData: featureData,
+			}
+		},
+	}
+</script>

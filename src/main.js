@@ -6,3 +6,4 @@ import './assets/layouts/index.scss'
 createApp(App)
 	.use(router)
 	.mount('#app')
+	
