@@ -1,7 +1,7 @@
 <template>
 	<nav class="navbar navbar-expand-lg navbar-light ">
 		<div class="container">
-			<a class="navbar-brand logo" href="/"><img src="../assets/images/logo_1.png" alt="logo"></a>
+			<a class="navbar-brand " href="/"><img class="imglogo" src="../assets/images/logo_1.png" alt="logo"></a>
 
 			<div class="collapse collapse-fontsize navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -43,3 +43,9 @@ import{menuList} from '../constant/menuLinks'
 	}
 </script>
 
+<style scoped>
+/* @media (max-width: 1200px){
+.imglogo {
+				width:50px;
+			}} */
+</style>

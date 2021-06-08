@@ -1,0 +1,122 @@
+.containerOpmode{
+    margin: 10px 120px;
+    height: 50%;
+  
+}
+.opmodeTitle{
+    padding-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.opmodegrid{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+   height: 200px;
+   text-align: center;
+  
+
+}
+.gridcontant,.gridcontant_orange{
+   
+    background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 20px;
+  
+}
+.gridcontant>h4,.gridcontant_orange>h4{
+    padding:30px;
+    font-size: 25px;
+    font-weight:bolder;
+  
+}
+.gridcontant{
+    border:2px solid $orange;
+}
+.gridcontant_orange{
+    background: $orange;
+
+}
+.opmodeTitleFit{
+   padding-top: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+/* карточки */
+
+.opmodeContainerCard{
+    
+    
+ display: flex;
+ flex-wrap: wrap;
+
+ justify-content: center;
+
+
+}
+ 
+.card{
+    cursor: pointer;
+    width: 230px;
+    height: 280px;
+    margin-left:10px;
+    margin-bottom:10px;
+    border-radius: 15px;
+}
+
+.front,
+.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+  
+}
+
+.front img{
+  
+    height: 100%;
+   
+}
+
+.front{
+    transform: perspective(600px) rotateY(0deg);
+    border-radius: 15px;
+}
+
+.back{
+    transform: perspective(600px) rotateY(180deg);
+    background-color: $grey;
+    border-radius: 15px;
+}
+
+.back-content{
+    width: 100%;
+    text-align: left;
+    color: $primary;
+    padding: 25px 13px;
+    
+}
+.back-content>p{
+   
+    font-size: 14px;
+}
+.content-orange{
+ color: $orange}
+
+h2{
+    margin-bottom: 20px;
+}
+
+
+
+.card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+  
+}
+.card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+    
+}
