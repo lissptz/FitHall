@@ -1,10 +1,10 @@
-
-
-
-		
-		
-
-	@media (min-width: 1200px){
+	
+@media (min-width: 1200px){
+	.carousel {
+		height: 490px !important;
+		overflow: hidden;
+	  
+	  }
 		.ul_navigation{             
 			padding-left:60px;
 		font-size: 25px;}
@@ -26,7 +26,13 @@
 			
 		}
 		@media (device-width: 1024px){
+			.carousel {
+				height: 550px !important;
+				overflow: hidden;
+			  
+			  }
 			.icons{ padding-top: 10px;}
+			
 			.team-details p{
 				font-size: 16px;}
 			.padding_top_1{     
@@ -55,96 +61,112 @@
 					.feature__text{
 						font-size: 18px;
 					 }
-				 .icons{ display: block;
-								margin-left: auto;
-								margin-right: auto;}
-								.team-details p{
+				   .icons{ display: block;
+						margin-left: auto;
+						margin-right: auto;}
+					.team-details p{
 									font-size: 12px;
 								}
-								.padding_top_1{     
+					.padding_top_1{     
 									top: 185px;
 								}      
-								.padding_top_2{
+					.padding_top_2{
 									top:130px
 								}
-								.padding_top_3{
+					.padding_top_3{
 									top:90px
 								}
 								
-								@media (max-width: 700px){
-									.container{
-										display: flex;
-										flex-direction: column;
+					@media (max-width: 700px){
+					.container{
+							display: flex;
+							flex-direction: column;
 									}
-									.ul_navigation{             
+					.ul_navigation{             
 									
-										flex-direction: column;
-										align-items: center;
+							flex-direction: column;
+							align-items: center;
 								}
 							}
-							@media (max-width: 414px){
-								.ul_navigation{
-									padding-right: 40px;
+					@media (max-width: 414px){
+						.carousel {
+							height: 250px !important;
+							overflow: hidden;
+						  
+						  }
+						
+						.ul_navigation{
+							padding-right: 40px;
 								}
-								.icons{
-									padding-left: 10px;
+								
+						.icons{
+							padding-left: 10px;
 									
 								}
-								.padding_top_1{     
-									top: 340px;
+						
+						.padding_top_1{     
+							top: 340px;
 								}      
-								.padding_top_2{
-									top:310px
+						.padding_top_2{
+							top:310px
 								}
-								.padding_top_3{
-									top:270px
+						.padding_top_3{
+							top:270px
 								}
-								.footer_img{
-									margin-left: 10px;
+						.footer_img{
+							margin-left: 10px;
 								}
-								.footer_socials {
-									padding-left:3px
+						.footer_socials {
+							padding-left:3px
 									}
-									.footer_title_wrap{
-										padding-top: 30px;
+						.footer_title_wrap{
+							padding-top: 30px;
 									}
-									.gridcontant>h4,.gridcontant_orange>h4{
+						.gridcontant>h4,.gridcontant_orange>h4{
         
-										font-size: 15px;
-										padding: 20px 10px  5px;
+							font-size: 15px;
+							padding: 20px 10px  5px;
 									}
-									.card{
-										width: 130px;
-                                        height: 180px;
+						.card{
+							width: 130px;
+                            height: 180px;
 									
 									
 									}
-									.front img{
+						.front img{
   
-										height: 90%;
+							height: 90%;
 									   
 									}
-									.map-box p {
-										font-size: 12px;
+						.map-box p {
+							font-size: 12px;
 									}
 								
-									.back-content>p{
+						.back-content>p{
    
-										font-size: 8px;
-										line-height: 8px;
+							font-size: 8px;
+							line-height: 8px;
 									}
-									.footer_client_wrap{
-										margin-top:30px;
-									padding-left:10px;}
-									.padding_top_1{     
-										top: 270px;
+						.footer_client_wrap{
+							margin-top:0px;
+							padding-left:10px;}
+						.padding_top_1{     
+						    top: 270px;
 									}      
-									.padding_top_2{
-										top:235px
+						.padding_top_2{
+							top:235px
 									}
-									.padding_top_3{
-										top:180px
+						.padding_top_3{
+							top:180px
 									}
+								
+								}
+								@media (max-width: 700px){
+									.carousel {
+										height: 210px !important;
+										overflow: hidden;
+									  
+									  }
 								
 								}
 									
