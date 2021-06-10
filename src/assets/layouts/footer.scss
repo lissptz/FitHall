@@ -4,8 +4,11 @@
     &_bg{
         background: $footer;
     }
+    
     &_logo{
+       
         padding-bottom: 15px;
+     
     }
     &_socials,
     &_list{
@@ -15,10 +18,14 @@
         display: flex;
         
     }
+    &_socials{
+        padding-left: 28px;
+
+    }
     &_social{
-        padding-left: 10px;
+     
         margin-right: 3px;
-        margin-left: 1px;
+        margin-left: 5px;
         padding-left: 0px;
     
         text-align: center;
@@ -27,6 +34,11 @@
         width: 20px;
         height: 20px;
         
+    }
+    &_img {
+        margin-top: 8px;
+       margin-bottom: 5px;
+margin-left: 35px;
     }
     &_social:hover{
         background: $orange;
@@ -67,7 +79,7 @@
 
 &_title{
     font-size: 25px;
-    padding-bottom:35px;
+    padding-bottom:15px;
     margin: 0;
 
 }
@@ -78,8 +90,8 @@
 
     &_list_capitalize{
         text-transform: capitalize;
+       
    }
-//    &_item{
-      
-//    }
+
+
 }

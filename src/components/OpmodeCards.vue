@@ -2,7 +2,8 @@
     <div class="opmodeTitle">
         <h2>Тренажерный зал</h2>
          </div>
-        <div class="containerOpmode">
+    
+            <div class="opmodeWrap">
         <div class="opmodegrid">
         <div class="gridcontant"><h4>Понедельник-Пятница</h4></div>
             <div class="gridcontant_orange"><h4>Суббота-Воскресенье</h4></div>
@@ -10,6 +11,7 @@
                     <div class="gridcontant_orange"><h4>11:00-19:00</h4></div>
         </div>
         </div>
+    
      
  
  <div class="opmodeTitleFit">

@@ -1,0 +1,151 @@
+
+
+
+		
+		
+
+	@media (min-width: 1200px){
+		.ul_navigation{             
+			padding-left:60px;
+		font-size: 25px;}
+			.icons{ display: block;
+				margin-left: auto;
+				margin-right: auto;}
+				.team-details p{
+					font-size: 15px;
+				}
+				.padding_top_1{     
+				    top: 370px;
+				}      
+				.padding_top_2{
+					top:320px
+				}
+				.padding_top_3{
+					top:280px
+				}
+			
+		}
+		@media (device-width: 1024px){
+			.icons{ padding-top: 10px;}
+			.team-details p{
+				font-size: 16px;}
+			.padding_top_1{     
+				top: 230px;
+			}      
+			.padding_top_2{
+				top:150px
+			}
+			.padding_top_3{
+				top:110px
+			}
+
+		}
+		@media (max-width: 768px){
+			.ul_navigation{ 
+				font-size: 20px;
+				padding-left: 75px;
+			}
+			.container-logo{  
+			    margin-left: auto;
+			    margin-right: auto;
+				 }
+				 .feature__title{
+					font-size: 20px;
+					 }
+					.feature__text{
+						font-size: 18px;
+					 }
+				 .icons{ display: block;
+								margin-left: auto;
+								margin-right: auto;}
+								.team-details p{
+									font-size: 12px;
+								}
+								.padding_top_1{     
+									top: 185px;
+								}      
+								.padding_top_2{
+									top:130px
+								}
+								.padding_top_3{
+									top:90px
+								}
+								
+								@media (max-width: 700px){
+									.container{
+										display: flex;
+										flex-direction: column;
+									}
+									.ul_navigation{             
+									
+										flex-direction: column;
+										align-items: center;
+								}
+							}
+							@media (max-width: 414px){
+								.ul_navigation{
+									padding-right: 40px;
+								}
+								.icons{
+									padding-left: 10px;
+									
+								}
+								.padding_top_1{     
+									top: 340px;
+								}      
+								.padding_top_2{
+									top:310px
+								}
+								.padding_top_3{
+									top:270px
+								}
+								.footer_img{
+									margin-left: 10px;
+								}
+								.footer_socials {
+									padding-left:3px
+									}
+									.footer_title_wrap{
+										padding-top: 30px;
+									}
+									.gridcontant>h4,.gridcontant_orange>h4{
+        
+										font-size: 15px;
+										padding: 20px 10px  5px;
+									}
+									.card{
+										width: 130px;
+                                        height: 180px;
+									
+									
+									}
+									.front img{
+  
+										height: 90%;
+									   
+									}
+									.map-box p {
+										font-size: 12px;
+									}
+								
+									.back-content>p{
+   
+										font-size: 8px;
+										line-height: 8px;
+									}
+									.footer_client_wrap{
+										margin-top:30px;
+									padding-left:10px;}
+									.padding_top_1{     
+										top: 270px;
+									}      
+									.padding_top_2{
+										top:235px
+									}
+									.padding_top_3{
+										top:180px
+									}
+								
+								}
+									
+}

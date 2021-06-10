@@ -1,31 +1,27 @@
 <template>
-	<nav class="navbar navbar-expand-lg navbar-light ">
-		<div class="container">
-			<a class="navbar-brand " href="/"><img class="imglogo" src="../assets/images/logo_1.png" alt="logo"></a>
-
-			<div class="collapse collapse-fontsize navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item menu-link" v-for="(menu, index) in headerMenuList" :key="index">
-						<router-link class="nav-link active" aria-current="page" :to="menu.path">
+<div class="header">
+	<nav class="navbar navbar-light bg-light">
+  <div class="container">
+  <div class="container-logo">  <a class="navbar-brand " href="/"><img class="img-logo" src="../assets/images/logo_1.png" alt="logo"></a>
+  </div>
+			<div class="nav_wrap"  >
+				<ul class="ul_navigation">
+					<li class="nav_menu-link" v-for="(menu, index) in headerMenuList" :key="index">
+						<router-link class="nav-link active_header" aria-current="page" :to="menu.path">
 							{{ menu.name }}
 						</router-link>
 					</li>
-				</ul>
-				<div class="icons"> 
-				<a href="https://www.facebook.com/fitnesshallptz/" target="blank"><img src="../assets/images/icons/f.png" alt="" /></a>
-				<a href="https://www.instagram.com/fitnesshall_ptz/" target="blank"><img src="../assets/images/icons/insta.png" alt="" /></a>
-				<a href="https://vk.com/fitnesshallptz" target="blank"><img src="../assets/images/icons/vk.png" alt="" /></a>
+				</ul> 
+  </div>
+  <div class="icons"> 
+				<a class="icon_link" href="https://www.facebook.com/fitnesshallptz/" target="blank"><img  class="icons_image" src="../assets/images/icons/f.png" alt="" /></a>
+				<a class="icon_link" href="https://www.instagram.com/fitnesshall_ptz/" target="blank"><img class="icons_image" src="../assets/images/icons/insta.png" alt="" /></a>
+				<a class="icon_link" href="https://vk.com/fitnesshallptz" target="blank"><img src="../assets/images/icons/vk.png" alt="" /></a>
 					
 				</div>
-				
-				
-			</div>
-			
-		</div>
-		
-	</nav>
-			
-	
+  </div>
+</nav>
+	</div>
 </template>
 
 <script>

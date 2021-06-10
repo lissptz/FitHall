@@ -28,3 +28,8 @@ import MainContainer from './components/MainContainer.vue'
 		},
 	}
 </script>
+<style >
+header{
+	background: #f8f9fa;
+}
+</style>

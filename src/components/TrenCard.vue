@@ -6,8 +6,8 @@
         <div class="team-img">
           <img src="../assets/images/ishutincard.jpg" alt="">
           <div class="overlay">
-            <div class="team-details text-center">
-              <p>
+            <div class="team-details text-center padding_top_3">
+              <p >
                
 Сертифицированный персональный тренер по бодибилдингу, фитнесу, сертификат выдан Московской федерацией бодибилдинга и фитнеса. Призер, победитель, рекордсмен соревнований по бодибилдингу, пауэрлифтингу, армрестлингу. Персональные тренировки, составление диеты, консультации по спортивному питанию. Тел. +79212264906 .
               </p>
@@ -37,8 +37,8 @@
         <div class="team-img">
           <img src="../assets/images/sofyacard_1.jpg" alt="">
           <div class="overlay">
-            <div class="team-details text-center padding_top">
-              <p>
+            <div class="team-details text-center padding_top_1">
+              <p class="font-size-card">
                
 Профессиональный тренер по фитнесу и бодибилдингуюМастер спорта по пауэрлифтингу IPL .Выступающая спортсменка.
               </p>

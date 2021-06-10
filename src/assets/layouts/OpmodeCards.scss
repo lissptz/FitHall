@@ -1,6 +1,8 @@
-.containerOpmode{
-    margin: 10px 120px;
-    height: 50%;
+.opmodeWrap{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding:0px 20px
   
 }
 .opmodeTitle{
@@ -12,15 +14,14 @@
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    grid-gap: 10px;
-   height: 200px;
+
    text-align: center;
   
 
 }
 .gridcontant,.gridcontant_orange{
    
-    background-repeat: no-repeat;
-   background-size: cover;
+   
    border-radius: 20px;
   
 }
@@ -120,3 +121,5 @@ h2{
     transform: perspective(600px) rotateY(0deg);
     
 }
+
+    
