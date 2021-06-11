@@ -1,7 +1,7 @@
 <template>
     <div class ='container_not_found'>
         <h2 class="text_not_found">404</h2>
-        <h5 class="text_not_found_two">Категорический NOT FOUND...</h5>
+        <h5 class="text_not_found_two">NOT FOUND...</h5>
     </div>
 </template>
 <style scoped>
